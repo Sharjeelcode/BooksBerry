@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+.top{
+    width: 100px;
+    height: 60px;
+    padding: 0px;
+    background-image: url(book-berry-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+.containercard{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px 10px;
+}
+
+.card{
+    padding: 15px;
+}
+.container p{
+    font-size: 25px;
+}
+
+.card img{
+    height: 200px;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+}
+.card img:hover{
+    transform: scale(1.1);
+
+}
+.card small{
+    font-size: 20px;
+}
+
+#req{
+    margin-left: 20px;
+}
+#form{
+    margin-left: 20px;
+    margin-right: 200px;
+}
+#check{
+    margin-left: 10px;
+}
